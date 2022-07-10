@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Employers>
+  <Employe>
+    <Name>Ivan</Name>
+    <Age>30</Age>
+    <JobTittle>Cleaner</JobTittle>
+  </Employe>
+  <Employe>
+    <Name>Artem</Name>
+    <Age>27</Age>
+    <JobTittle>Programer</JobTittle>
+  </Employe>
+</Employers>

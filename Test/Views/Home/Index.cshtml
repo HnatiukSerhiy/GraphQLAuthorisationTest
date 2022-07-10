@@ -1,0 +1,16 @@
+﻿@using Test.Models;
+@model IEnumerable<Employee>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1>GraphQL demo</h1>
+    <div>
+        @foreach(Employee emp in Model)
+        {
+            <p>@emp.Id | @emp.Name | @emp.Age | @emp.JobTittle</p>
+        }
+    </div>
+</div>
